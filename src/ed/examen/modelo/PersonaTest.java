@@ -33,4 +33,10 @@ class PersonaTest {
 		assertEquals("Sergio", p.getNombre());
 	}
 
+	@Test
+	void testSetNombre() {
+		p.setNombre("Martin");
+		assertEquals("Martin", p.getNombre());
+	}
+
 }
