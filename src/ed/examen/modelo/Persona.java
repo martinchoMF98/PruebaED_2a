@@ -48,7 +48,7 @@ public class Persona {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 * @return nombre
 	 */
 	public String getNombre() {
 		return nombre;
