@@ -29,7 +29,7 @@ public class Persona {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 * @return dni
 	 */
 	public String getDni() {
 		return dni;
