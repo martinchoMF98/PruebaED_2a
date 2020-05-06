@@ -37,4 +37,9 @@ class CursoTest {
 		assertEquals(false, c.estaRegistrado("18079115B"));
 	}
 
+	@Test
+	void testCurso() {
+		equals(c.numeroAlumnos());
+	}
+
 }
