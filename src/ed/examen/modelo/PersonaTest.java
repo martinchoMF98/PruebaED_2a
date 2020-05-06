@@ -28,4 +28,9 @@ class PersonaTest {
 		}
 	}
 
+	@Test
+	void testGetNombre() {
+		assertEquals("Sergio", p.getNombre());
+	}
+
 }
