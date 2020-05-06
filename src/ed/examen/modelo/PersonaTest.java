@@ -18,4 +18,14 @@ class PersonaTest {
 		assertEquals("18079115B", p.getDni());
 	}
 
+	@Test
+	void testSetDni() {
+		try {
+			p.setDni("18079115B");
+		} catch (Exception e) {
+			// TODO: handle exception
+			assertEquals("18079115B", p.getDni());
+		}
+	}
+
 }
