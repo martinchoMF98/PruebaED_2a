@@ -39,4 +39,9 @@ class PersonaTest {
 		assertEquals("Martin", p.getNombre());
 	}
 
+	@Test
+	void testGetApellido1() {
+		assertEquals("Ruiz", p.getApellido1());
+	}
+
 }
