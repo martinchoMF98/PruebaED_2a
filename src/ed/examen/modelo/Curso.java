@@ -27,7 +27,9 @@ public class Curso {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 * @param persona
+	 * 
+	 * @return añade alumnos a la lista
 	 */
 	public void aniadirAlumno(Persona p) {
 		listaAlumnos.add(p);
