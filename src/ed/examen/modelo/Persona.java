@@ -19,8 +19,6 @@ public class Persona {
 	 * @param nombre
 	 * 
 	 * @param apellido1
-	 * 
-	 * @exception cuando la longitud del String introducido no es igual a 9
 	 */
 	public Persona(String dni, String nombre, String apellido1) {
 		this.dni = dni;
@@ -36,7 +34,9 @@ public class Persona {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 * @param dni
+	 * 
+	 * @throws exception comprueba si el ultimo caracter es una letra
 	 */
 	public void setDni(String dni) throws Exception {
 		// comprobacion de si el ultimo caracter es una letra
