@@ -42,4 +42,9 @@ class CursoTest {
 		equals(c.numeroAlumnos());
 	}
 
+	@Test
+	void testNumeroAlumnos() {
+		equals(c.numeroAlumnos());
+	}
+
 }
