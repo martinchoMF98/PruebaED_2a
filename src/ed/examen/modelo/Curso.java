@@ -36,7 +36,9 @@ public class Curso {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 * @param dni
+	 * 
+	 * @return devuelve si el dni introducido esta registrado
 	 */
 	public Boolean estaRegistrado(String dni) {
 		int i = 0;
