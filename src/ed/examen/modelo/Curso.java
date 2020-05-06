@@ -16,7 +16,7 @@ public class Curso {
 	 * 
 	 * @return dni
 	 * 
-	 * @exception cuando la longitud del String introducido no es igual a 9
+	 * @throws exception cuando la longitud del String introducido no es igual a 9
 	 */
 	public void eliminarAlumno(String dni) throws Exception {
 		if (dni.length() == 9) {// comprobar la longitud del dni
@@ -28,8 +28,6 @@ public class Curso {
 
 	/*
 	 * @param persona
-	 * 
-	 * @return añade alumnos a la lista
 	 */
 	public void aniadirAlumno(Persona p) {
 		listaAlumnos.add(p);
@@ -53,7 +51,7 @@ public class Curso {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 *
 	 */
 	public Curso() {
 		listaAlumnos = new ArrayList<Persona>();
