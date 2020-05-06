@@ -69,7 +69,7 @@ public class Persona {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 * @param apellido1
 	 */
 	public void setApellido1(String apellido1) {
 		this.apellido1 = apellido1;
