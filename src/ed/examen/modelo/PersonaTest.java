@@ -13,9 +13,4 @@ class PersonaTest {
 		assertEquals("18079115B", "Martin", "Aguado");
 	}
 
-	@Test
-	void testSetDni() {
-		assertEquals("18079115B", p.getDni());
-	}
-
 }
