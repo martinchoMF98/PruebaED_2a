@@ -58,7 +58,7 @@ public class Curso {
 	}
 
 	/*
-	 * Documentar y crear test unitario
+	 * @return nos devuelve el numero de elementos de listaAlumnos
 	 */
 	public Integer numeroAlumnos() {
 		return listaAlumnos.size();
