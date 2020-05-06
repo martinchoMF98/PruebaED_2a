@@ -1,5 +1,6 @@
 package ed.examen.modelo;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
@@ -27,6 +28,13 @@ class CursoTest {
 		int y = c.numeroAlumnos();
 
 		assertEquals(x + 1, y);
+	}
+
+	@Test
+	void testEstaRegistrado() {
+		Boolean encontrado = c.estaRegistrado("180791125B");
+		assertFalse(encontrado);
+		assertEquals(false, c.estaRegistrado("18079115B"));
 	}
 
 }
